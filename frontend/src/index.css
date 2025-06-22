@@ -1,0 +1,71 @@
+body {
+  background: #000000;
+  /* Or use a gradient: */
+  /* background: linear-gradient(135deg, #000000 0%, #1a0033 100%); */
+  color: #F5F5F5;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.app-accent-gradient {
+  background: linear-gradient(90deg, #A000FF 0%, #FF00B8 100%);
+  color: #F5F5F5;
+}
+
+.primary-text {
+  color: #C5AFFF;
+}
+
+.secondary-text {
+  color: rgba(245,245,245,0.6);
+}
+
+.neon-button {
+  background: linear-gradient(90deg, #A000FF 0%, #FF00B8 100%);
+  color: #F5F5F5;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-weight: 600;
+  box-shadow: 0 0 8px #A000FF, 0 0 16px #FF00B8;
+  transition: box-shadow 0.2s;
+}
+.neon-button:hover {
+  box-shadow: 0 0 16px #A000FF, 0 0 32px #FF00B8;
+}
+
+/* Primary CTA Button */
+.primary-cta {
+  background: linear-gradient(90deg, #A000FF 0%, #FF00B8 100%);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 999px;
+  padding: 14px 32px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 0 0 8px #A000FF, 0 0 16px #FF00B8;
+  transition: box-shadow 0.2s, transform 0.2s, background 0.2s;
+}
+.primary-cta:hover {
+  box-shadow: 0 0 24px #A000FF, 0 0 32px #FF00B8;
+  transform: scale(1.05);
+}
+
+/* Secondary Button */
+.secondary-btn {
+  background: transparent;
+  color: #C5AFFF;
+  font-weight: 600;
+  border: none;
+  border-radius: 999px;
+  padding: 12px 28px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: border 0.2s, text-decoration 0.2s, color 0.2s;
+}
+.secondary-btn:hover {
+  border: 2px solid #C5AFFF;
+  text-decoration: underline;
+  color: #fff;
+}
