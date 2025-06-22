@@ -2,17 +2,6 @@
 
 This project is a full-stack visual pipeline editor built using **React** (frontend) and **FastAPI** (backend). The tool allows users to create node-based pipelines with drag-and-drop functionality, export/import options, and backend validation for DAG structure.
 
----
-
-## 🌐 Live Demo
-
-> 🎯 Deployed using [Railway](https://railway.app)
-
-- **Frontend**: [https://your-frontend.up.railway.app](https://your-frontend.up.railway.app)
-- **Backend**: [https://your-backend.up.railway.app](https://your-backend.up.railway.app)
-
----
-
 ## 🗂️ Folder Structure
 
 ```
@@ -186,7 +175,7 @@ Built for the VectorShift Technical Interview.
 
 - GitHub: [https://github.com/vaibhavkaushik](https://github.com/vaibhavkaushik)
 - LinkedIn: [https://linkedin.com/in/vaibhavkaushik](https://linkedin.com/in/vaibhavkaushik)
-- Email: vaibhav@example.com
+- Email: Vaibhavsingh5373@gmail.com
 
 ---
 
